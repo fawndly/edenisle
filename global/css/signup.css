@@ -1,0 +1,74 @@
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.help-block.hb-success { color: green}
+.help-block.hb-error { color: red}
+
+#avatarmaker h5 {
+	font-size: 10px;
+	line-height: 10px;
+	margin: 6px 0 0 2px;
+}
+
+#avatarmaker #avatar {
+	width: 180px;
+	height: 270px;
+}
+
+.item-container {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 0 8px 4px 8px;
+	margin-bottom: 12px;
+	display: block
+}
+
+.eq-row {
+	width: 365px;
+}
+
+.eq-row .col2 {
+	width: 170px;
+	display: inline-block;
+}
+
+.eq-row .col2-1 {
+	margin-right: 2px;
+}
+
+.eq-row .col2-2 {
+	margin-left: 2px;
+}
+
+ul.choice_select {
+	list-style: none;
+	margin: 0;
+}
+
+ul.choice_select li {
+	display: inline-block;
+	margin: 1px;
+}
+
+ul.choice_select li > a{
+	display: block;
+	border-radius:4px;
+	border: 1px solid #ccc;
+}
+
+ul.choice_select li > a.selected {
+	background: #D9F0FF;
+	border-color: #81b2de;
+	box-shadow: 0 0 6px 2px #b7d9f7;
+}
+
+ul.choice_select li a.base-color {
+	display: block;
+	width: 16px;
+	height: 16px;
+}
